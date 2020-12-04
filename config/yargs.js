@@ -36,7 +36,7 @@ for (let i = 1; i <= 10; i++) {
 }
 
 fs.writeFile(`tablas/tabla${base}.txt`, data, (err) => {
-    if (err) throw err;
+    if (err) throw err;wswsw
     console.log(`el aerchivo ${base} se creo`);
 });
 */
